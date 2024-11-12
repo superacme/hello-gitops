@@ -1,0 +1,11 @@
+apiVersion: kblocks.io/v1
+kind: Project
+metadata:
+  name: hello-gitops
+title: Hello GitOps
+description: Demonstrates how Kblocks can be used with a GitOps application
+icon: BicepsFlexed
+objects:
+  - kblocks://acme.com/v1/workloads/local/default/gitops-demo
+  - kblocks://acme.com/v1/argoapps/local/default/hello-gitops
+  - kblocks://acme.com/v1/topics/local/default/hello-gitops-topic
