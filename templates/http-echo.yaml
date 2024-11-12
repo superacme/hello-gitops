@@ -1,0 +1,10 @@
+apiVersion: acme.com/v1
+kind: Workload
+metadata:
+  name: gitops-demo
+  namespace: default
+port: 5678
+image: hashicorp/http-echo
+expose:
+  - path: /hello-gitops
+replicas: 2

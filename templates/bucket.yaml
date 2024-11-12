@@ -1,0 +1,11 @@
+apiVersion: acme.com/v1
+kind: Bucket
+metadata:
+  annotations:
+    meta.helm.sh/release-name: hello-gitops
+    meta.helm.sh/release-namespace: default
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  name: my-bucket
+  namespace: default
+public: false

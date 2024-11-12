@@ -1,0 +1,7 @@
+apiVersion: acme.com/v1
+kind: Topic
+metadata:
+  name: hello-gitops-topic
+  namespace: default
+topicName: hello-gitops-topic
+region: us-east-1
