@@ -1,0 +1,7 @@
+apiVersion: acme.com/v1
+kind: Bucket
+metadata:
+  name: hello-world
+  namespace: default
+cors: true
+forceDestroy: true
