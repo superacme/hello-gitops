@@ -11,3 +11,4 @@ objects:
   - kblocks://acme.com/v1/topics/local/default/hello-gitops-topic
   - kblocks://acme.com/v1/buckets/local/default/my-bucket
   - kblocks://acme.com/v1/postgreses/local/default/my-postgres
+  - kblocks://acme.com/v1/buckets/local/default/hello-world
