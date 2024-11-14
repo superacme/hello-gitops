@@ -3,5 +3,5 @@ kind: Bucket
 metadata:
   name: hello-world
   namespace: default
-cors: true
+cors: false
 forceDestroy: true
